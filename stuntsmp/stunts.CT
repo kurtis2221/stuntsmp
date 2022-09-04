@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="34">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"Base Pointer"</Description>
+      <LastState Value="0DC39020" RealAddress="01D3C370"/>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>01D3C370</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"X"</Description>
+      <LastState Value="1667424" RealAddress="0DC6FA44"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>01D3C370</Address>
+      <Offsets>
+        <Offset>36A24</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"Y"</Description>
+      <LastState Value="512" RealAddress="0DC6FA48"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>01D3C370</Address>
+      <Offsets>
+        <Offset>36A28</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"Z"</Description>
+      <LastState Value="104691" RealAddress="0DC6FA4C"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>01D3C370</Address>
+      <Offsets>
+        <Offset>36A2C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"X AI"</Description>
+      <LastState Value="1660798" RealAddress="0DC6FAFA"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>01D3C370</Address>
+      <Offsets>
+        <Offset>36ADA</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"Y AI"</Description>
+      <LastState Value="0" RealAddress="0DC6FAFE"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>01D3C370</Address>
+      <Offsets>
+        <Offset>36ADE</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"Z AI"</Description>
+      <LastState Value="99983" RealAddress="0DC6FB02"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>01D3C370</Address>
+      <Offsets>
+        <Offset>36AE2</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

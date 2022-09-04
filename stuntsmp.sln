@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stuntsmp", "stuntsmp\stuntsmp.csproj", "{16C8A777-616C-41F0-9881-6A9B774ACF6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stuntsmp_serv", "stuntsmp_serv\stuntsmp_serv.csproj", "{DEA39FD1-D23D-4982-9092-83683BB0960B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16C8A777-616C-41F0-9881-6A9B774ACF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C8A777-616C-41F0-9881-6A9B774ACF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C8A777-616C-41F0-9881-6A9B774ACF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C8A777-616C-41F0-9881-6A9B774ACF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA39FD1-D23D-4982-9092-83683BB0960B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA39FD1-D23D-4982-9092-83683BB0960B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA39FD1-D23D-4982-9092-83683BB0960B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA39FD1-D23D-4982-9092-83683BB0960B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
