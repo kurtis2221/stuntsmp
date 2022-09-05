@@ -140,7 +140,7 @@
             // 
             // ofd
             // 
-            this.ofd.Filter = "EXE files|*.exe";
+            this.ofd.Filter = "EXE files|*.exe|BAT files|*.bat|All files|*.*";
             // 
             // lb_sep
             // 

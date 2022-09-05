@@ -213,12 +213,14 @@ namespace stuntsmp
 
         private void bt_exe_Click(object sender, EventArgs e)
         {
+            ofd.Filter = "EXE files|*.exe|BAT files|*.bat|All files|*.*";
             if (ofd.ShowDialog() != DialogResult.OK) return;
             tb_exe.Text = ofd.FileName;
         }
 
         private void bt_exe_par_Click(object sender, EventArgs e)
         {
+            ofd.Filter = "COM files|*.com|EXE files|*.exe|BAT files|*.bat|All files|*.*";
             if (ofd.ShowDialog() != DialogResult.OK) return;
             tb_exe_par.Text = ofd.FileName;
         }
