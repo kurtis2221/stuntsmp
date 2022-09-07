@@ -6,7 +6,7 @@ namespace stuntsmp_serv
 {
     class Program
     {
-        const string TITLE = "Stunts/4D Sports Driving Multiplayer 1.0 Alpha - Server";
+        const string TITLE = "Stunts/4D Sports Driving Multiplayer 1.1 Alpha - Server";
         const short PORT = 7777;
         const int BUFFER_SIZE = 0x80;
         const int MAX_PLAYERS = 2;

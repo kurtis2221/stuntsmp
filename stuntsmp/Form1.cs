@@ -12,7 +12,7 @@ namespace stuntsmp
 {
     public partial class Form1 : Form
     {
-        const string TITLE = "Stunts/4D Sports Driving Multiplayer Client 1.0 Alpha";
+        const string TITLE = "Stunts/4D Sports Driving Multiplayer Client 1.1 Alpha";
         const string FILE_CFG = "stuntsmp.txt";
         const int PORT = 7777;
         //Client send
@@ -26,16 +26,21 @@ namespace stuntsmp
         static uint BASE_ADDR = 0x0;
         static uint[] PLAYER_ADDR = 
         {
-            0x36A24
+            0x36684, //1.0
+            0x36A24, //1.0 Old loader
+            0x37794, //1.0 Loader
+            0x364B6, //1.1
+            0x375C6, //1.1 Loader
         };
         static uint[] NET_ADDR =
         {
-            0x36ADA
+            0x3673A, //1.0
+            0x36ADA, //1.0 Old loader
+            0x3784A, //1.0 Loader
+            0x36586, //1.1
+            0x37696, //1.1 Loader
         };
-        static int[] DATA_LEN =
-        {
-            0x80
-        };
+        static int DATA_LEN = 0x80;
         //
         StreamReader sr;
         StreamWriter sw;
@@ -45,6 +50,7 @@ namespace stuntsmp
         Thread thd, thd2;
         MemoryEdit.Memory mem;
         Process game;
+        int ver_idx;
 
         public Form1()
         {
@@ -57,12 +63,15 @@ namespace stuntsmp
                 tb_exe.Text = sr.ReadLine();
                 tb_exe_par.Text = sr.ReadLine();
                 tb_ip.Text = sr.ReadLine();
+                int.TryParse(sr.ReadLine(), out ver_idx);
+                cb_version.SelectedIndex = ver_idx;
                 sr.Close();
             }
             if (tb_base.Text.Length == 0)
             {
                 //DOSBox 0.74-3 address
                 tb_base.Text = "01D3C370";
+                cb_version.SelectedIndex = 0;
             }
         }
 
@@ -116,6 +125,7 @@ namespace stuntsmp
                 sw.WriteLine(tb_exe.Text);
                 sw.WriteLine(tb_exe_par.Text);
                 sw.WriteLine(tb_ip.Text);
+                sw.WriteLine(cb_version.SelectedIndex);
                 sw.Close();
                 BASE_ADDR = Convert.ToUInt32(tb_base.Text, 16);
                 ProcessStartInfo proc = new ProcessStartInfo();
@@ -155,14 +165,11 @@ namespace stuntsmp
                     for (int idx = 0; idx < BUFFER_SIZE; idx += sock.Receive(buffer, idx, BUFFER_SIZE - idx, SocketFlags.None)) ;
                     src_idx = 1;
                     ptr = BitConverter.ToUInt32(mem.ReadByte(BASE_ADDR, 4), 0);
-                    for (int i = 0; i < NET_ADDR.Length; i++)
-                    {
-                        len = DATA_LEN[i];
-                        Array.Copy(buffer, src_idx, data, 0, len);
-                        tmp = ptr + NET_ADDR[i];
-                        mem.WriteByte(tmp, data, len);
-                        src_idx += len;
-                    }
+                    len = DATA_LEN;
+                    Array.Copy(buffer, src_idx, data, 0, len);
+                    tmp = ptr + NET_ADDR[ver_idx];
+                    mem.WriteByte(tmp, data, len);
+                    src_idx += len;
                 }
             }
             catch (Exception e)
@@ -190,14 +197,11 @@ namespace stuntsmp
                     Thread.Sleep(THD_SLEEP);
                     trg_idx = 0;
                     ptr = BitConverter.ToUInt32(mem.ReadByte(BASE_ADDR, 4), 0);
-                    for (int i = 0; i < PLAYER_ADDR.Length; i++)
-                    {
-                        len = DATA_LEN[i];
-                        tmp = ptr + PLAYER_ADDR[i];
-                        data = mem.ReadByte(tmp, len);
-                        Array.Copy(data, 0, buffer, trg_idx, len);
-                        trg_idx += len;
-                    }
+                    len = DATA_LEN;
+                    tmp = ptr + PLAYER_ADDR[ver_idx];
+                    data = mem.ReadByte(tmp, len);
+                    Array.Copy(data, 0, buffer, trg_idx, len);
+                    trg_idx += len;
                     sock.Send(buffer);
                 }
             }
@@ -223,6 +227,11 @@ namespace stuntsmp
             ofd.Filter = "COM files|*.com|EXE files|*.exe|BAT files|*.bat|All files|*.*";
             if (ofd.ShowDialog() != DialogResult.OK) return;
             tb_exe_par.Text = ofd.FileName;
+        }
+
+        private void cb_version_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ver_idx = cb_version.SelectedIndex;
         }
     }
 }

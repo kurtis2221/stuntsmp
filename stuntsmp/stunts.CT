@@ -4,77 +4,381 @@
     <CheatEntry>
       <ID>0</ID>
       <Description>"Base Pointer"</Description>
-      <LastState Value="0DC39020" RealAddress="01D3C370"/>
+      <LastState Value="0DC7E020" RealAddress="01D3C370"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>01D3C370</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>3</ID>
-      <Description>"X"</Description>
-      <LastState Value="1667424" RealAddress="0DC6FA44"/>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>01D3C370</Address>
-      <Offsets>
-        <Offset>36A24</Offset>
-      </Offsets>
+      <ID>45</ID>
+      <Description>"1.0"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>46</ID>
+          <Description>"X"</Description>
+          <LastState Value="1412" RealAddress="0DCB46A4"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>36684</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>50</ID>
+          <Description>"Y"</Description>
+          <LastState Value="0" RealAddress="0DCB46A8"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>36688</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>49</ID>
+          <Description>"Z"</Description>
+          <LastState Value="0" RealAddress="0DCB46AC"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>3668C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>47</ID>
+          <Description>"X AI"</Description>
+          <LastState Value="23200197" RealAddress="0DCB475A"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>3673A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>52</ID>
+          <Description>"Y AI"</Description>
+          <LastState Value="36373005" RealAddress="0DCB475E"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>3673E</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>51</ID>
+          <Description>"Z AI"</Description>
+          <LastState Value="43254000" RealAddress="0DCB4762"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>36742</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
     </CheatEntry>
     <CheatEntry>
-      <ID>4</ID>
-      <Description>"Y"</Description>
-      <LastState Value="512" RealAddress="0DC6FA48"/>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>01D3C370</Address>
-      <Offsets>
-        <Offset>36A28</Offset>
-      </Offsets>
+      <ID>26</ID>
+      <Description>"1.0 Old Loader"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>3</ID>
+          <Description>"X"</Description>
+          <LastState Value="0" RealAddress="0DCB4A44"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>36A24</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4</ID>
+          <Description>"Y"</Description>
+          <LastState Value="0" RealAddress="0DCB4A48"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>36A28</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>5</ID>
+          <Description>"Z"</Description>
+          <LastState Value="0" RealAddress="0DCB4A4C"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>36A2C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>14</ID>
+          <Description>"X AI"</Description>
+          <LastState Value="0" RealAddress="0DCB4AFA"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>36ADA</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>8</ID>
+          <Description>"Y AI"</Description>
+          <LastState Value="0" RealAddress="0DCB4AFE"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>36ADE</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>10</ID>
+          <Description>"Z AI"</Description>
+          <LastState Value="0" RealAddress="0DCB4B02"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>36AE2</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
     </CheatEntry>
     <CheatEntry>
-      <ID>5</ID>
-      <Description>"Z"</Description>
-      <LastState Value="104691" RealAddress="0DC6FA4C"/>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>01D3C370</Address>
-      <Offsets>
-        <Offset>36A2C</Offset>
-      </Offsets>
+      <ID>36</ID>
+      <Description>"1.0 Loader"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>35</ID>
+          <Description>"X"</Description>
+          <LastState Value="428021635" RealAddress="0DCB57B4"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>37794</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>37</ID>
+          <Description>"Y"</Description>
+          <LastState Value="478288515" RealAddress="0DCB57B8"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>37798</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>38</ID>
+          <Description>"Z"</Description>
+          <LastState Value="528490113" RealAddress="0DCB57BC"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>3779C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>42</ID>
+          <Description>"AI X"</Description>
+          <LastState Value="0" RealAddress="0DCB586A"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>3784A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>44</ID>
+          <Description>"AI Y"</Description>
+          <LastState Value="0" RealAddress="0DCB586E"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>3784E</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>43</ID>
+          <Description>"AI Z"</Description>
+          <LastState Value="0" RealAddress="0DCB5872"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>37852</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
     </CheatEntry>
     <CheatEntry>
-      <ID>14</ID>
-      <Description>"X AI"</Description>
-      <LastState Value="1660798" RealAddress="0DC6FAFA"/>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>01D3C370</Address>
-      <Offsets>
-        <Offset>36ADA</Offset>
-      </Offsets>
+      <ID>29</ID>
+      <Description>"1.1"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>28</ID>
+          <Description>"X 1.1"</Description>
+          <LastState Value="493824" RealAddress="0DCB44D6"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>364B6</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>30</ID>
+          <Description>"Y 1.1"</Description>
+          <LastState Value="512" RealAddress="0DCB44DA"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>364BA</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>31</ID>
+          <Description>"Z 1.1"</Description>
+          <LastState Value="354530" RealAddress="0DCB44DE"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>364BE</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>32</ID>
+          <Description>"X AI 1.1"</Description>
+          <LastState Value="488899" RealAddress="0DCB45A6"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>36586</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>34</ID>
+          <Description>"Y AI 1.1"</Description>
+          <LastState Value="512" RealAddress="0DCB45AA"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>3658A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>33</ID>
+          <Description>"Z AI 1.1"</Description>
+          <LastState Value="352973" RealAddress="0DCB45AE"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>3658E</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
     </CheatEntry>
     <CheatEntry>
-      <ID>8</ID>
-      <Description>"Y AI"</Description>
-      <LastState Value="0" RealAddress="0DC6FAFE"/>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>01D3C370</Address>
-      <Offsets>
-        <Offset>36ADE</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>10</ID>
-      <Description>"Z AI"</Description>
-      <LastState Value="99983" RealAddress="0DC6FB02"/>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>01D3C370</Address>
-      <Offsets>
-        <Offset>36AE2</Offset>
-      </Offsets>
+      <ID>25</ID>
+      <Description>"1.1 Loader"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>16</ID>
+          <Description>"X 1.1"</Description>
+          <LastState Value="12583168" RealAddress="0DCB55E6"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>375C6</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>18</ID>
+          <Description>"Y 1.1"</Description>
+          <LastState Value="8388672" RealAddress="0DCB55EA"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>375CA</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>17</ID>
+          <Description>"Z 1.1"</Description>
+          <LastState Value="2097152" RealAddress="0DCB55EE"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>375CE</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>22</ID>
+          <Description>"X AI 1.1"</Description>
+          <LastState Value="2031645" RealAddress="0DCB56B6"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>37696</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>24</ID>
+          <Description>"Y AI 1.1"</Description>
+          <LastState Value="19005472" RealAddress="0DCB56BA"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>3769A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>23</ID>
+          <Description>"Z AI 1.1"</Description>
+          <LastState Value="35914019" RealAddress="0DCB56BE"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>01D3C370</Address>
+          <Offsets>
+            <Offset>3769E</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
