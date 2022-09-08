@@ -2,10 +2,7 @@
 |Stunts / 4D Sports Driving - DOSBox Multiplayer 1.1 Alpha|
 \=========================================================/
 
-This was used for testing:
-File name: LOAD.EXE
-Size: 19 832 bytes
-CRC32: 4061B85B
+For supported versions check out the versions.txt file.
 
 This program requires at least .Net Framework 2.0 to run.
 
@@ -35,6 +32,10 @@ Client (Player)
 Server
 Start stuntsmp_serv.exe
 The server must open port 7777.
+
+1.1
+===
+Support for more versions
 
 ===================
 Made by Kurtis

@@ -2,10 +2,7 @@
 |Stunts / 4D Sports Driving - DOSBox Multiplayer 1.1 Alpha|
 \=========================================================/
 
-Ezzel lett tesztelve:
-Fájlnév: LOAD.EXE
-Méret: 19 832 byte
-CRC32: 4061B85B
+Támogatott verziókhoz nézd át a versions.txt fájlt.
 
 A program futtatásához legalább .Net Keretrendszer 2.0-re van szükség.
 
@@ -36,6 +33,10 @@ Szerver
 Indítsd el a stuntsmp_serv.exe-t
 A 7777-es portot meg kell nyitni a szervernek.
 
+1.1
+===
+Több verzió támogatva
+
 ===================
 Készítette Kurtis
-2022.09.04.
+2022.09.08.

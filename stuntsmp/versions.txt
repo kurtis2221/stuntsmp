@@ -1,0 +1,37 @@
+1.0
+===
+LOAD.EXE
+Size: 19 832 bytes
+CRC32: 4061B85B
+
+STUNTS.COM
+Size: 763 bytes
+CRC32: 546FA245
+
+1.0 Old Loader
+==============
+ST.COM / STUNT.COM
+Size: 213 bytes
+CRC32: BD10C991
+
+1.0 Loader
+==========
+START.EXE
+Size: 5 411 bytes
+CRC32: 5786B2EB
+
+1.1
+===
+LOAD.EXE
+Size: 20 829 bytes
+CRC32: 6F95F4F6
+
+STUNTS.COM
+Size: 758 bytes
+CRC32: 42CA8467
+
+1.1 Loader
+==========
+START.EXE
+Size: 5 411 bytes
+CRC32: 5786B2EB

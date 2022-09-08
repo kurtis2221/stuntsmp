@@ -1,11 +1,4 @@
-This was used for testing:
-
-File name: LOAD.EXE
-
-Size: 19 832 bytes
-
-CRC32: 4061B85B
-
+[Click here to see the supported versions](stuntsmp/versions.txt)
 
 This program requires at least .Net Framework 2.0 to run.
 
